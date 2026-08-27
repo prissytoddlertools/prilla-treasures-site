@@ -1,0 +1,35 @@
+name: Import website package
+
+on:
+  push:
+    paths:
+      - prilla-site.zip
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Unpack website
+        shell: bash
+        run: |
+          unzip -o prilla-site.zip
+          rm prilla-site.zip
+
+      - name: Save website files
+        shell: bash
+        run: |
+          git config user.name "Prissy Toddler Tools"
+          git config user.email "founder@prillatreasures.com"
+          git add --all
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Import Prissy Toddler Tools website"
+          git push
