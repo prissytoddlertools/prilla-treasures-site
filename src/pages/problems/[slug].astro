@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import ResourceCard from '../../components/ResourceCard.astro';
+import { problems } from '../../data/problems';
+import { getPublishedProducts, getPublishedResources } from '../../lib/content';
+
+export function getStaticPaths() {
+  return problems.map((problem) => ({
+    params: { slug: problem.slug },
+    props: { problem },
+  }));
+}
+
+const { problem } = Astro.props;
+const products = (await getPublishedProducts()).filter((item) => item.data.problem === problem.slug);
+const resources = (await getPublishedResources()).filter((item) => item.data.problem === problem.slug);
+---
+
+<BaseLayout
+  title={`${problem.name} Tools and Resources | Prissy Toddler Tools`}
+  description={problem.intro}
+>
+  <header class="page-hero">
+    <p class="eyebrow">Shop by Problem</p>
+    <h1>{problem.name}</h1>
+    <p>{problem.intro}</p>
+  </header>
+
+  <section class="content-shell wide">
+    <div class="section-heading">
+      <p class="eyebrow">Finished tools</p>
+      <h2>Tools for this moment</h2>
+    </div>
+    {products.length > 0 ? (
+      <div class="card-grid">
+        {products.map((product) => <ProductCard product={product} />)}
+      </div>
+    ) : (
+      <div class="notice-box">
+        <p>No finished product is published on this shelf yet. The shelf stays empty until a complete tool and a working purchase path are ready.</p>
+      </div>
+    )}
+  </section>
+
+  {resources.length > 0 && (
+    <section class="content-shell wide">
+      <div class="section-heading">
+        <p class="eyebrow">Read first</p>
+        <h2>Parent resources</h2>
+      </div>
+      <div class="card-grid">
+        {resources.map((resource) => <ResourceCard resource={resource} />)}
+      </div>
+    </section>
+  )}
+</BaseLayout>

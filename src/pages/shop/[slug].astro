@@ -1,0 +1,91 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getProblem } from '../../data/problems';
+import { getPublishedProducts } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const products = await getPublishedProducts();
+  return products.map((product) => ({
+    params: { slug: product.id },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const { Content } = await render(product);
+const problem = getProblem(product.data.problem);
+---
+
+<BaseLayout
+  title={product.data.seoTitle}
+  description={product.data.description}
+  socialImage={product.data.previewImages[0] ?? null}
+>
+  <header class="page-hero">
+    <p class="eyebrow">Prissy Toddler Tools by Prilla Treasures</p>
+    <h1>{product.data.title}</h1>
+    <p>{product.data.shortDescription}</p>
+    <p><strong>{product.data.priceLabel}</strong></p>
+    <a
+      class="button"
+      href={product.data.checkoutUrl}
+      rel="noopener"
+      data-event="purchase_click"
+      data-product={product.id}
+    >Buy this digital tool</a>
+  </header>
+
+  <section class="content-shell wide">
+    <div class="section-heading">
+      <p class="eyebrow">See what you will receive</p>
+      <h2>Real product previews</h2>
+    </div>
+    <div class="card-grid">
+      {product.data.previewImages.map((image, index) => (
+        <img src={image} alt={`${product.data.title} preview ${index + 1}`} loading="lazy" />
+      ))}
+    </div>
+  </section>
+
+  <section class="content-shell article-body">
+    <Content />
+
+    <h2>What is included</h2>
+    <ul>
+      {product.data.included.map((item) => <li>{item}</li>)}
+    </ul>
+
+    <h2>How to use it</h2>
+    <ol>
+      {product.data.steps.map((step) => <li>{step}</li>)}
+    </ol>
+
+    <h2>Important limits</h2>
+    <ul>
+      {product.data.limitations.map((limitation) => <li>{limitation}</li>)}
+    </ul>
+
+    <h2>Questions parents ask</h2>
+    {product.data.faqs.map((faq) => (
+      <details class="simple-card">
+        <summary><strong>{faq.question}</strong></summary>
+        <p>{faq.answer}</p>
+      </details>
+    ))}
+
+    <div class="notice-box">
+      <h2>Ready to use this tool?</h2>
+      <p>Checkout, receipt and secure delivery are handled by the payment provider.</p>
+      <a
+        class="button"
+        href={product.data.checkoutUrl}
+        rel="noopener"
+        data-event="purchase_click"
+        data-product={product.id}
+      >Buy for {product.data.priceLabel}</a>
+    </div>
+
+    {problem && <p><a class="plain-link" href={`/problems/${problem.slug}/`}>Return to {problem.name}</a></p>}
+  </section>
+</BaseLayout>

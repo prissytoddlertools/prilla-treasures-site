@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getProblem } from '../data/problems';
+
+interface Props {
+  resource: CollectionEntry<'resources'>;
+}
+
+const { resource } = Astro.props;
+const problem = getProblem(resource.data.problem);
+---
+
+<article class="simple-card">
+  <p class="eyebrow">{problem?.name ?? 'Parent Resource'}</p>
+  <h2>{resource.data.title}</h2>
+  <p>{resource.data.description}</p>
+  <a href={`/resources/${resource.id}/`}>Read this resource <span aria-hidden="true">→</span></a>
+</article>

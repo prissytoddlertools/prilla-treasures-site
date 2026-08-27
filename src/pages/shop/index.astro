@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { getPublishedProducts } from '../../lib/content';
+
+const products = await getPublishedProducts();
+---
+
+<BaseLayout
+  title="Shop Toddler Printables | Prissy Toddler Tools"
+  description="Shop finished printable toddler tools for routines, emotions, communication, potty learning, eating and play."
+>
+  <header class="page-hero">
+    <p class="eyebrow">The Shop</p>
+    <h1>Finished tools only</h1>
+    <p>Every product here has its own permanent page, real previews, clear use notes and a working purchase path.</p>
+  </header>
+
+  <section class="content-shell wide">
+    {products.length > 0 ? (
+      <div class="card-grid">
+        {products.map((product) => <ProductCard product={product} />)}
+      </div>
+    ) : (
+      <div class="notice-box">
+        <h2>The shop is being prepared for launch</h2>
+        <p>No product is shown until its files, previews, checkout and delivery have all been checked.</p>
+        <p>You can still <a class="plain-link" href="/start-here/">browse by problem</a> or <a class="plain-link" href="/resources/">read the parent resources</a>.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>

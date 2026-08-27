@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { problems } from '../../data/problems';
+---
+
+<BaseLayout
+  title="Shop by Problem | Prissy Toddler Tools"
+  description="Find toddler printables and parent resources by the moment you want help with today."
+>
+  <header class="page-hero">
+    <p class="eyebrow">Shop by Problem</p>
+    <h1>Go straight to the moment</h1>
+    <p>Each shelf keeps related tools and reading together.</p>
+  </header>
+
+  <section class="content-shell wide">
+    <div class="problem-grid">
+      {problems.map((problem, index) => (
+        <a class="problem-card" href={`/problems/${problem.slug}/`}>
+          <span class="problem-number">Shelf {String(index + 1).padStart(2, '0')}</span>
+          <b aria-hidden="true">→</b>
+          <h2>{problem.name}</h2>
+          <p>{problem.intro}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

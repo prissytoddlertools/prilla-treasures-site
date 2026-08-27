@@ -1,0 +1,17 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  product: CollectionEntry<'products'>;
+}
+
+const { product } = Astro.props;
+---
+
+<article class="simple-card">
+  <p class="eyebrow">Digital toddler tool</p>
+  <h2>{product.data.title}</h2>
+  <p>{product.data.shortDescription}</p>
+  {product.data.priceLabel && <p><strong>{product.data.priceLabel}</strong></p>}
+  <a href={`/shop/${product.id}/`}>See what is inside <span aria-hidden="true">→</span></a>
+</article>

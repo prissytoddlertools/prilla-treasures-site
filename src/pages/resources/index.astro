@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ResourceCard from '../../components/ResourceCard.astro';
+import { problems } from '../../data/problems';
+import { getPublishedResources } from '../../lib/content';
+
+const resources = await getPublishedResources();
+---
+
+<BaseLayout
+  title="Parent Resources | Prissy Toddler Tools"
+  description="Direct parent resources for toddler routines, eating, emotions, communication, potty learning and play."
+>
+  <header class="page-hero">
+    <p class="eyebrow">Parent Resources</p>
+    <h1>Read for the moment you are in</h1>
+    <p>Short articles organised by the same everyday problems as the shop.</p>
+  </header>
+
+  <section class="content-shell wide">
+    <nav class="category-nav" aria-label="Resource categories">
+      {problems.map((problem) => <a href={`/problems/${problem.slug}/`}>{problem.name}</a>)}
+    </nav>
+    <div class="card-grid">
+      {resources.map((resource) => <ResourceCard resource={resource} />)}
+    </div>
+  </section>
+</BaseLayout>

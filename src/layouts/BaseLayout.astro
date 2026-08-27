@@ -1,0 +1,146 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/prissy-toddler-tools-logo.png';
+import { socialLinks } from '../data/socials';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  socialImage?: string | null;
+}
+
+const {
+  title,
+  description,
+  canonicalPath = Astro.url.pathname,
+  socialImage = '/og.png',
+} = Astro.props;
+
+const siteUrl = 'https://prillatreasures.com';
+const canonicalUrl = new URL(canonicalPath, siteUrl);
+const socialImageUrl = socialImage ? new URL(socialImage, siteUrl) : null;
+const analyticsToken = import.meta.env.PUBLIC_CF_WEB_ANALYTICS_TOKEN;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Prissy Toddler Tools by Prilla Treasures" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    {socialImageUrl && <meta property="og:image" content={socialImageUrl} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {socialImageUrl && <meta name="twitter:image" content={socialImageUrl} />}
+    <meta name="theme-color" content="#244856" />
+    {analyticsToken && (
+      <script
+        is:inline
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: analyticsToken })}
+      ></script>
+    )}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="shop-note">Made for the toddler moments that can turn a whole day upside down</div>
+
+    <header class="site-header">
+      <div class="header-main">
+        <a class="header-brand" href="/" aria-label="Prissy Toddler Tools home">
+          <Image src={logo} alt="Prissy Toddler Tools logo" width={92} height={92} loading="eager" />
+          <span class="header-name">
+            <strong>Prissy Toddler Tools</strong>
+            <small>by Prilla Treasures</small>
+          </span>
+        </a>
+
+        <a class="shop-bag" href="/shop/">
+          <span>Shop finished tools</span>
+          <b aria-hidden="true">→</b>
+        </a>
+      </div>
+
+      <nav class="category-nav" aria-label="Primary navigation">
+        <a href="/start-here/">Start Here</a>
+        <a href="/shop/">Shop</a>
+        <a href="/problems/picky-eating/">Picky Eating</a>
+        <a href="/problems/big-emotions/">Big Emotions</a>
+        <a href="/problems/potty-learning/">Potty Learning</a>
+        <a href="/problems/routines-independence/">Routines</a>
+        <a href="/free-tools/">Free Tools</a>
+        <a href="/resources/">Parent Resources</a>
+      </nav>
+      <details class="mobile-menu">
+        <summary>Browse the shop</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="/start-here/">Start Here</a>
+          <a href="/shop/">Shop</a>
+          <a href="/problems/">Shop by Problem</a>
+          <a href="/free-tools/">Free Tools</a>
+          <a href="/resources/">Parent Resources</a>
+          <a href="/about/">About</a>
+          <a href="/faq-contact/">FAQ and Contact</a>
+        </nav>
+      </details>
+    </header>
+
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <Image src={logo} alt="" width={112} height={112} loading="lazy" />
+          <div>
+            <strong>Prissy Toddler Tools</strong>
+            <p>Part of Prilla Treasures</p>
+          </div>
+        </div>
+        <div>
+          <h2>Find your way</h2>
+          <a href="/start-here/">Start Here</a>
+          <a href="/shop/">Shop</a>
+          <a href="/problems/">Shop by Problem</a>
+          <a href="/resources/">Parent Resources</a>
+        </div>
+        <div>
+          <h2>Good to know</h2>
+          <a href="/about/">About</a>
+          <a href="/faq-contact/">FAQ and Contact</a>
+          <a href="/policies/privacy/">Privacy</a>
+          <a href="/policies/terms/">Terms</a>
+          <a href="/policies/digital-products/">Digital Products and Refunds</a>
+        </div>
+        <div class="footer-contact">
+          <h2>Need help?</h2>
+          <p>Write directly to the founder.</p>
+          <a href="mailto:founder@prillatreasures.com">founder@prillatreasures.com</a>
+          {socialLinks.length > 0 && (
+            <div>
+              {socialLinks.map((social) => <a href={social.url} rel="me noopener">{social.label}</a>)}
+            </div>
+          )}
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© {new Date().getFullYear()} Prilla Treasures</span>
+        <span>PrillaTreasures.com</span>
+      </div>
+    </footer>
+  </body>
+</html>

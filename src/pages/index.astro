@@ -1,0 +1,181 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import founderPortrait from '../assets/founder/founder-portrait.jpeg';
+import screenCover from '../assets/products/screen-off-rescue/cover.png';
+import screenPreviewOne from '../assets/products/screen-off-rescue/preview-choose-ending.png';
+import screenPreviewTwo from '../assets/products/screen-off-rescue/preview-ending-cue.png';
+
+const problems = [
+  {
+    title: 'Picky Eating',
+    copy: 'For tables where every bite has become a discussion.',
+    slug: 'picky-eating',
+  },
+  {
+    title: 'Big Emotions',
+    copy: 'For feelings that arrive loudly and leave everyone tired.',
+    slug: 'big-emotions',
+  },
+  {
+    title: 'Potty Learning',
+    copy: 'For showing each step without turning it into a test.',
+    slug: 'potty-learning',
+  },
+  {
+    title: 'Routines and Independence',
+    copy: 'For mornings, evenings and the question, What happens next?',
+    slug: 'routines-independence',
+  },
+  {
+    title: 'Communication',
+    copy: 'For needs and choices that are easier to point to than say.',
+    slug: 'communication',
+  },
+  {
+    title: 'Play and Preschool Readiness',
+    copy: 'For simple practice through ordinary play.',
+    slug: 'play-preschool-readiness',
+  },
+];
+---
+
+<BaseLayout
+  title="Prissy Toddler Tools by Prilla Treasures"
+  description="Printable toddler tools for calmer routines, clearer communication and growing independence."
+>
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <div>
+        <p class="eyebrow">A Prilla Treasures shop</p>
+        <h1>Prissy Toddler Tools</h1>
+        <p class="hero-tagline">Calmer routines. Growing independence.</p>
+        <p class="hero-copy">
+          Print the pages. Put them where your toddler can see them. Follow the words when the moment gets noisy. These tools are made for actual mornings, meals, feelings and handovers.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/start-here/">Show me where to start <span aria-hidden="true">→</span></a>
+          <a class="button button-light" href="/shop/">See every finished tool</a>
+        </div>
+        <ul class="hero-facts" aria-label="Store facts">
+          <li>Digital files</li>
+          <li>Print at home</li>
+          <li>Clear use notes</li>
+        </ul>
+      </div>
+
+      <div class="preview-window" aria-label="Real pages from a Prissy Toddler Tools resource">
+        <div class="preview-page one">
+          <Image src={screenCover} alt="Cover of Screen Off Rescue" width={420} loading="eager" />
+        </div>
+        <div class="preview-page two">
+          <Image src={screenPreviewOne} alt="A page for choosing how screen time will end" width={420} loading="eager" />
+        </div>
+        <div class="preview-page three">
+          <Image src={screenPreviewTwo} alt="Printable visual cards for ending screen time" width={400} loading="eager" />
+        </div>
+        <div class="preview-label">A real look inside our tools</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-shell">
+    <div class="section-heading">
+      <p class="eyebrow">Choose the moment</p>
+      <h2>What is hard in your house today?</h2>
+      <p>Pick one. You will go to the tools and parent resources that match it.</p>
+    </div>
+    <div class="problem-grid">
+      {problems.map((problem, index) => (
+        <a class="problem-card" href={`/problems/${problem.slug}/`}>
+          <span class="problem-number">Shelf {String(index + 1).padStart(2, '0')}</span>
+          <b aria-hidden="true">→</b>
+          <h3>{problem.title}</h3>
+          <p>{problem.copy}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="store-promise">
+    <div class="section-shell">
+      <div>
+        <p class="eyebrow">What you will find here</p>
+        <h2>Useful pages with a clear job</h2>
+        <p>Every finished product page will show the real pages, what is inside, how to use it and what it cannot promise.</p>
+      </div>
+      <div class="promise-list">
+        <div class="promise-item">
+          <span>1</span>
+          <div>
+            <h3>See before you buy</h3>
+            <p>Real previews help you decide whether a tool fits your home.</p>
+          </div>
+        </div>
+        <div class="promise-item">
+          <span>2</span>
+          <div>
+            <h3>Use it without guessing</h3>
+            <p>Each tool includes plain instructions and examples for the moment it was made for.</p>
+          </div>
+        </div>
+        <div class="promise-item">
+          <span>3</span>
+          <div>
+            <h3>Keep expectations honest</h3>
+            <p>No promises of perfect toddlers, instant calm or guaranteed results.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-shell">
+    <div class="split-promo">
+      <article class="promo-card">
+        <p class="eyebrow">Free Tools</p>
+        <h2>Try something small first</h2>
+        <p>Visit the free library for printable help and simple ideas you can use before buying anything.</p>
+        <a class="button button-small" href="/free-tools/">Open the free library</a>
+      </article>
+      <article class="promo-card">
+        <p class="eyebrow">Parent Resources</p>
+        <h2>Read for the moment you are in</h2>
+        <p>Short, direct articles organised by the same problems as the shop.</p>
+        <a class="button button-light button-small" href="/resources/">Read parent resources</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="founder-band">
+    <div class="founder-inner">
+      <div class="founder-photo">
+        <Image
+          src={founderPortrait}
+          alt="Founder of Prissy Toddler Tools by Prilla Treasures"
+          width={620}
+          loading="lazy"
+        />
+      </div>
+      <div class="founder-copy">
+        <p class="eyebrow">The person behind the shop</p>
+        <h2>Meet Priscilla</h2>
+        <p>
+          I am a mother raising a son who is a picky eater and who can have big emotions. The tools in this shop come from the routines, visual prompts and clear words I have used in my own home and found helpful so far.
+        </p>
+        <p>I am not a doctor or therapist. I am sharing practical tools from my own parenting experience, with honest limits and no promise that every child will respond in the same way.</p>
+        <p>For help, write to <a class="plain-link" href="mailto:founder@prillatreasures.com">founder@prillatreasures.com</a>.</p>
+        <a class="button button-light button-small" href="/about/">Visit the About page</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-shell">
+    <div class="section-heading">
+      <p class="eyebrow">Questions before you choose</p>
+      <h2>Want to check the details first?</h2>
+      <p>Read how digital delivery works, what support is available and how refunds are handled.</p>
+    </div>
+    <a class="button" href="/faq-contact/">Read the FAQ and contact us</a>
+  </section>
+</BaseLayout>

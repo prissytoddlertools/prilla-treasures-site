@@ -1,0 +1,76 @@
+backend:
+  name: github
+  repo: prissytoddlertools/prilla-treasures-site
+  branch: main
+  auth_methods:
+    - oauth
+    - token
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: resources
+    label: Parent Resources
+    label_singular: Parent Resource
+    folder: src/content/resources
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: SEO Title, name: seoTitle, widget: string }
+      - { label: Search Description, name: description, widget: text }
+      - label: Problem Shelf
+        name: problem
+        widget: select
+        options:
+          - { label: Picky Eating, value: picky-eating }
+          - { label: Big Emotions, value: big-emotions }
+          - { label: Potty Learning, value: potty-learning }
+          - { label: Routines and Independence, value: routines-independence }
+          - { label: Communication, value: communication }
+          - { label: Play and Preschool Readiness, value: play-preschool-readiness }
+      - { label: Publish Date, name: publishedAt, widget: datetime, time_format: false }
+      - { label: Keep as Draft, name: draft, widget: boolean, default: true }
+      - { label: Feature on Home Page, name: featured, widget: boolean, default: false }
+      - { label: Main Image, name: image, widget: image, required: false }
+      - { label: Tags, name: tags, widget: list, default: [] }
+      - { label: Article, name: body, widget: markdown }
+
+  - name: products
+    label: Products
+    label_singular: Product
+    folder: src/content/products
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Product Title, name: title, widget: string }
+      - { label: SEO Title, name: seoTitle, widget: string }
+      - { label: Search Description, name: description, widget: text }
+      - { label: Shop Card Description, name: shortDescription, widget: text }
+      - label: Problem Shelf
+        name: problem
+        widget: select
+        options:
+          - { label: Picky Eating, value: picky-eating }
+          - { label: Big Emotions, value: big-emotions }
+          - { label: Potty Learning, value: potty-learning }
+          - { label: Routines and Independence, value: routines-independence }
+          - { label: Communication, value: communication }
+          - { label: Play and Preschool Readiness, value: play-preschool-readiness }
+      - { label: Publish Date, name: publishedAt, widget: datetime, time_format: false }
+      - { label: Keep as Draft, name: draft, widget: boolean, default: true }
+      - { label: Feature on Home Page, name: featured, widget: boolean, default: false }
+      - { label: Display Price, name: priceLabel, widget: string, required: false }
+      - { label: Hosted Checkout Link, name: checkoutUrl, widget: string, required: false }
+      - { label: Preview Images, name: previewImages, widget: list, field: { label: Image, name: image, widget: image }, default: [] }
+      - { label: What Is Included, name: included, widget: list }
+      - { label: How To Use It, name: steps, widget: list }
+      - { label: Important Limits, name: limitations, widget: list }
+      - label: Questions and Answers
+        name: faqs
+        widget: list
+        fields:
+          - { label: Question, name: question, widget: string }
+          - { label: Answer, name: answer, widget: text }
+      - { label: Product Story and Approach, name: body, widget: markdown }

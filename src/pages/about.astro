@@ -1,0 +1,50 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import founderPortrait from '../assets/founder/founder-portrait.jpeg';
+---
+
+<BaseLayout
+  title="About Prissy Toddler Tools by Prilla Treasures"
+  description="Meet the founder and learn how Prissy Toddler Tools fits within Prilla Treasures."
+>
+  <header class="page-hero">
+    <p class="eyebrow">About the Shop</p>
+    <h1>Hello, I am Priscilla</h1>
+    <p>I am a mother, the founder of Prilla Treasures and the person behind Prissy Toddler Tools.</p>
+  </header>
+
+  <section class="founder-inner">
+    <div class="founder-photo">
+      <Image
+        src={founderPortrait}
+        alt="Founder of Prissy Toddler Tools by Prilla Treasures"
+        width={720}
+        loading="eager"
+      />
+    </div>
+    <div class="founder-copy">
+      <p class="eyebrow">Meet the founder</p>
+      <h2>Priscilla Afrifa Boateng</h2>
+      <p>I know what it feels like to prepare a meal and watch my son refuse it. He is a picky eater, and I also know how quickly a small parenting moment can become a very big emotion.</p>
+      <p>I started using simple routines, visual prompts and clear words in my own home. They have helped my family so far. Prissy Toddler Tools grew from the practical things I have used as a mother and wanted to make easier for another parent to pick up and try.</p>
+      <p>I am not a doctor or a therapist. I am a mother sharing tools drawn from my own experience. Every child is different, so these resources do not promise perfect behaviour or one result for every family.</p>
+      <p>Questions can go directly to <a class="plain-link" href="mailto:founder@prillatreasures.com">founder@prillatreasures.com</a>.</p>
+    </div>
+  </section>
+
+  <section class="content-shell wide">
+    <div class="split-promo">
+      <article class="promo-card">
+        <p class="eyebrow">The store name</p>
+        <h2>Prissy Toddler Tools</h2>
+        <p>This is the customer facing toddler shop. Products, problem shelves and parent resources stay focused on toddler and preschool family life.</p>
+      </article>
+      <article class="promo-card">
+        <p class="eyebrow">The parent brand</p>
+        <h2>Prilla Treasures</h2>
+        <p>Prilla Treasures owns the domain and gives the business room to grow later without mixing unrelated products into this shop.</p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

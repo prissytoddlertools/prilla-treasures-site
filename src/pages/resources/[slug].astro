@@ -1,0 +1,39 @@
+---
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getProblem } from '../../data/problems';
+import { getPublishedResources } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const resources = await getPublishedResources();
+  return resources.map((resource) => ({
+    params: { slug: resource.id },
+    props: { resource },
+  }));
+}
+
+const { resource } = Astro.props;
+const { Content } = await render(resource);
+const problem = getProblem(resource.data.problem);
+---
+
+<BaseLayout
+  title={resource.data.seoTitle}
+  description={resource.data.description}
+  socialImage={resource.data.image ?? null}
+>
+  <header class="page-hero">
+    <p class="eyebrow">{problem?.name ?? 'Parent Resource'}</p>
+    <h1>{resource.data.title}</h1>
+    <p>{resource.data.description}</p>
+  </header>
+
+  <article class="content-shell article-body">
+    <Content />
+    <div class="notice-box">
+      <h2>Looking for a tool?</h2>
+      <p>Visit the matching problem shelf to see finished tools and related reading.</p>
+      {problem && <a class="button button-small" href={`/problems/${problem.slug}/`}>Visit {problem.name}</a>}
+    </div>
+  </article>
+</BaseLayout>

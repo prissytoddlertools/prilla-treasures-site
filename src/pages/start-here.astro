@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { problems } from '../data/problems';
+---
+
+<BaseLayout
+  title="Start Here | Prissy Toddler Tools"
+  description="Choose the toddler moment that feels hardest and go straight to the most relevant tools and resources."
+>
+  <header class="page-hero">
+    <p class="eyebrow">Start Here</p>
+    <h1>What is hard right now?</h1>
+    <p>You do not need to search the whole shop. Choose one moment and begin there.</p>
+  </header>
+
+  <section class="content-shell wide">
+    <div class="problem-grid">
+      {problems.map((problem, index) => (
+        <a class="problem-card" href={`/problems/${problem.slug}/`}>
+          <span class="problem-number">Choice {String(index + 1).padStart(2, '0')}</span>
+          <b aria-hidden="true">→</b>
+          <h2>{problem.name}</h2>
+          <p>{problem.question}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

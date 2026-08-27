@@ -1,0 +1,23 @@
+{
+  "name": "prilla-treasures-store",
+  "type": "module",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "audit": "node scripts/audit-site.mjs",
+    "test:load": "node scripts/smoke-load.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.2.8",
+    "sharp": "^0.35.4"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}

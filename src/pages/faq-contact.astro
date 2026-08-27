@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const faqs = [
+  {
+    question: 'Are these physical products?',
+    answer: 'No. Products in this shop are digital files. Nothing is shipped to your home unless a future product page clearly says otherwise.',
+  },
+  {
+    question: 'How will I receive a purchase?',
+    answer: 'The payment provider sends the receipt and secure download instructions after a verified successful payment. A return to this website alone does not unlock a file.',
+  },
+  {
+    question: 'Can I use the pages from my phone?',
+    answer: 'Some products may include phone friendly pages. Check the included list on the individual product page before buying.',
+  },
+  {
+    question: 'Do these tools guarantee a result?',
+    answer: 'No. They are practical parent tools, not medical, developmental, therapeutic or educational guarantees. Every product page lists the limits that apply to that tool.',
+  },
+  {
+    question: 'Can I share the files with another family?',
+    answer: 'No. A purchase is for the buyer and their household unless the product page includes a different licence. Send another family to the permanent product page instead.',
+  },
+  {
+    question: 'What if a file does not open?',
+    answer: 'Email the founder with the order email and product name. Do not send card details or passwords.',
+  },
+];
+---
+
+<BaseLayout
+  title="FAQ and Contact | Prissy Toddler Tools"
+  description="Answers about Prissy Toddler Tools digital files, delivery, use and support, plus direct founder contact."
+>
+  <header class="page-hero">
+    <p class="eyebrow">FAQ and Contact</p>
+    <h1>Check the details before you buy</h1>
+    <p>If your question is not answered here, write directly to the founder.</p>
+  </header>
+
+  <section class="content-shell article-body">
+    {faqs.map((faq) => (
+      <details class="simple-card">
+        <summary><strong>{faq.question}</strong></summary>
+        <p>{faq.answer}</p>
+      </details>
+    ))}
+
+    <div class="notice-box">
+      <h2>Contact the founder</h2>
+      <p>Email <a class="plain-link" href="mailto:founder@prillatreasures.com">founder@prillatreasures.com</a>.</p>
+      <p>Include the product name and the email used at checkout when asking about an order. Never send your full card number, password or security code.</p>
+    </div>
+  </section>
+</BaseLayout>
