@@ -2,6 +2,7 @@ backend:
   name: github
   repo: prissytoddlertools/prilla-treasures-site
   branch: main
+  base_url: https://sveltia-cms-auth.pafrifa50.workers.dev
   auth_methods:
     - oauth
     - token
@@ -74,3 +75,4 @@ collections:
           - { label: Question, name: question, widget: string }
           - { label: Answer, name: answer, widget: text }
       - { label: Product Story and Approach, name: body, widget: markdown }
+  
