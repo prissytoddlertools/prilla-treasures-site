@@ -16,35 +16,29 @@ previewImages:
   - /uploads/04-morning-visual-rescue-plan-preview.jpg
   - /uploads/05-out-the-door-printable-toolkit-preview.jpg
 included:
-  - • A 34-page parent e-book and printable leaving-the-house system
-  - • The seven-step DOORWAY pathway
-  - • A practical 10-minute morning reset
-  - • Parent scripts for dressing, teeth and hair, breakfast, stopping play, shoes, coats and the doorway
-  - • Guidance for building a visible five-step morning sequence
-  - • A green, amber and red response ladder
-  - • A time-pressure rescue plan for rushed mornings
-  - • Support for families with more than one child
-  - • Arrival and caregiver-handoff guidance
-  - • A seven-day morning reset
-  - '• Nine printable tools: adult launch pad, five-step morning visual, first-then board, real-choice cards, pocket scripts, time-pressure rescue card, seven-day tracker, caregiver handoff and personal plan'
-  - • US Letter and A4 PDF editions
-  - • EPUB reading edition
-  - • Personal household-use licence
+  - A 34-page parent e-book and printable leaving-the-house system
+  - The seven-step DOORWAY pathway
+  - A practical 10-minute morning reset
+  - Parent scripts for dressing, teeth and hair, breakfast, stopping play, shoes, coats and the doorway
+  - Guidance for building a visible five-step morning sequence
+  - A green, amber and red response ladder
+  - A time-pressure rescue plan for rushed mornings
+  - Support for families with more than one child
+  - Arrival and caregiver-handoff guidance
+  - A seven-day morning reset
+  - 'Nine printable tools: adult launch pad, five-step morning visual, first-then board, real-choice cards, pocket scripts, time-pressure rescue card, seven-day tracker, caregiver handoff and personal plan'
+  - US Letter and A4 PDF editions
+  - EPUB reading edition
+  - Personal household-use licence
 steps:
-  - 1. Begin with the 10-minute reset and write down the five steps that genuinely need to happen before you leave.
-  - ''
-  - 2. Map the real exit chain and prepare anything the adult can complete the night before.
-  - ''
-  - 3. Choose one visible morning sequence and two realistic choices your child can use.
-  - ''
-  - 4. Use the short scripts during dressing, breakfast, play endings and the doorway.
-  - ''
-  - 5. Match your help to the green, amber or red response level. When time becomes tight, switch to the rescue plan instead of adding more reminders.
-  - ''
-  - 6. Track the routine for seven days, then change one bottleneck at a time.
+  - Begin with the 10-minute reset and write down the five steps that genuinely need to happen before you leave.
+  - Map the real exit chain and prepare anything the adult can complete the night before.
+  - Choose one visible morning sequence and two realistic choices your child can use.
+  - Use the short scripts during dressing, breakfast, play endings and the doorway.
+  - Match your help to the green, amber or red response level. When time becomes tight, switch to the rescue plan instead of adding more reminders.
+  - Track the routine for seven days, then change one bottleneck at a time.
 limitations:
   - Out the Door Without the Battle is a practical routine-support resource for caregivers of toddlers and preschoolers, approximately ages 2–5. It does not diagnose or treat autism, ADHD, anxiety, sensory differences or any medical or developmental condition, and it cannot guarantee conflict-free mornings.
-  - ''
   - Adapt the tools to your child, household, culture and safety needs. Seek advice from a paediatrician or another qualified professional when distress is severe, persistent or concerning. Seek urgent local help if you cannot keep your child, yourself or other people safe.
 faqs:
   - question: What age is this designed for?
