@@ -17,32 +17,27 @@ previewImages:
   - /uploads/06-screen-off-rescue-7-day-family-plan-preview.jpg
 included:
   - A 19-page printable and phone-friendly toolkit
-  - • The five-step PAUSE Screen-Off Plan
-  - • A five-minute screen-time setup guide
-  - • Exact parent scripts for before, during and after screen time
-  - • A green, amber and red response ladder for different levels of distress
-  - • Six printable visual-support activities and cards
-  - • Screen-ending cue cards
-  - • First-screen-then-next visual board
-  - • Next-activity and connection-choice cards
-  - • Parent pocket-script cards
-  - • A seven-day screen-time transition tracker
-  - • A personalized family screen-off plan
-  - • US Letter and A4 PDF versions
-  - • Personal household-use licence
+  - The five-step PAUSE Screen-Off Plan
+  - A five-minute screen-time setup guide
+  - Exact parent scripts for before, during and after screen time
+  - A green, amber and red response ladder for different levels of distress
+  - Six printable visual-support activities and cards
+  - Screen-ending cue cards
+  - First-screen-then-next visual board
+  - Next-activity and connection-choice cards
+  - Parent pocket-script cards
+  - A seven-day screen-time transition tracker
+  - A personalized family screen-off plan
+  - US Letter and A4 PDF versions
+  - Personal household-use licence
 steps:
   - Choose a clear ending point before screen time begins, such as the end of one episode or level.
-  - ''
   - Turn off autoplay and prepare two realistic activities your child can choose from afterwards.
-  - ''
   - Show or say the plan before the screen begins.
-  - ''
   - Give one reminder and use the short screen-finished script when the agreed ending arrives.
-  - ''
   - Use the response ladder if your child becomes upset, and track the pattern for seven days before changing the plan.
 limitations:
   - Screen-Off Rescue is a practical routine-support tool for caregivers of children approximately ages 2–5. It does not diagnose or treat addiction, autism, ADHD, sensory differences or any medical or developmental condition. It cannot promise that every tantrum will stop.
-  - ''
   - Please seek advice from a pediatrician or another qualified professional when reactions are severe, persistent, unsafe or concerning. Seek urgent local help if you cannot keep your child or other people safe.
 faqs:
   - question: Is Screen-Off Rescue a physical product?
@@ -51,7 +46,7 @@ faqs:
     answer: It is designed for parents and caregivers of children approximately ages 2–5. The wording and visual supports can be adapted to your child’s development and communication needs.
   - question: Do I need a printer?
     answer: No. The guidance and parent scripts can be viewed on a phone or tablet. You can print the visual boards, cue cards and tracker if they would be helpful for your family.
-  - question: Will this stop every screen-  time tantrum?
+  - question: Will this stop every screen-time tantrum?
     answer: No toolkit can guarantee that a child will stop happily every time. Screen-Off Rescue is designed to make screen endings clearer and give the adult a consistent plan to follow before, during and after the transition.
   - question: What files are included?
     answer: You will receive the 19-page Screen-Off Rescue toolkit in both US Letter and A4 PDF formats, including the PAUSE plan, parent scripts, visual cue cards, response ladder, seven-day tracker and family screen-off plan.
