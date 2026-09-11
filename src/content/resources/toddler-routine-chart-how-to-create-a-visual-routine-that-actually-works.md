@@ -512,3 +512,7 @@ You do not necessarily need a prize for every completed routine. Simple encourag
 ### What if my toddler ignores the visual schedule?
 
 Use it with your child rather than expecting the board to teach itself. Point to the picture, name the activity, complete it together and move the card when finished. It may take repetition before your child understands how the system works.
+
+## **About the Author**
+
+Priscilla Afrifa Boateng is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom and online experience with her own parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence, and navigate common early-childhood challenges.
