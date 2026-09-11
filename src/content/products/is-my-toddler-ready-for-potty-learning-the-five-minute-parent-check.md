@@ -8,7 +8,7 @@ publishedAt: 2026-09-10
 draft: false
 featured: true
 priceLabel: FREE
-checkoutUrl: '[https://prissytoddlertools.lemonsqueezy.com/checkout/buy/add9cf66-b80f-44b3-8a20-67497eac9aca](https://prissytoddlertools.lemonsqueezy.com/checkout/buy/add9cf66-b80f-44b3-8a20-67497eac9aca)'
+checkoutUrl: https://prissytoddlertools.lemonsqueezy.com/checkout/buy/add9cf66-b80f-44b3-8a20-67497eac9aca
 previewImages:
   - /uploads/exec-624534c5-a110-419a-926a-95a49ec21a50.png
   - /uploads/exec-783f4ad2-ddf5-4e50-b7c1-149ade263cb7.png
