@@ -5,8 +5,8 @@ description: Learn how visual cues, First-Then boards and simple toddler routine
 slug: visual-cues-for-toddlers
 problem: routines-independence
 publishedAt: 2026-09-10
-draft: true
-featured: false
+draft: false
+featured: true
 image: /uploads/Codex Image Sep 11, 2026, 12_09_08 PM.png
 imageAlt: Toddler using visual routine cards to see what comes next
 tags:
@@ -492,7 +492,7 @@ Explain:
 
 Then show what will happen instead.
 
-Routines work because they provide a familiar framework—not because every day must be identical.
+Routines work because they provide a familiar framework, not because every day must be identical.
 
 ## Visual Cues Can Support Independence Too
 
@@ -572,7 +572,7 @@ Make cards with paper.
 
 You do not have to buy anything to begin making routines more visible.
 
-But if you want a ready-made system instead of creating every visual yourself, **Little Steps — Toddler Routine & Independence Toolkit** was designed for everyday situations like these.
+But if you want a ready-made system instead of creating every visual yourself, **Little Steps —Toddler Routine & Independence Toolkit** was designed for everyday situations like these.
 
 It includes **44 visual routine cards and seven flexible boards**, including:
 
@@ -661,7 +661,5 @@ No tool can guarantee that a toddler will never become upset. Visual cues are in
 ## References
 
 1. [Centers for Disease Control and Prevention, Tips for Relying on Routines and Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/index.html)
-
 2. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)
-
 3. [ZERO TO THREE, Promoting Cooperation and Self Control](https://www.zerotothree.org/resource/promoting-cooperation-and-self-control-gather-round-activities/)
