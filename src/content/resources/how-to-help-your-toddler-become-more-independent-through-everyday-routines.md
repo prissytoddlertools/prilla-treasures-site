@@ -5,8 +5,8 @@ description: Learn practical ways to encourage toddler independence through dres
 slug: toddler-independence-daily-routines
 problem: routines-independence
 publishedAt: 2026-09-10
-draft: true
-featured: false
+draft: false
+featured: true
 image: /uploads/Codex Image Sep 11, 2026, 12_17_11 PM.png
 imageAlt: Toddler practising putting on shoes independently during daily routine
 tags:
@@ -515,7 +515,7 @@ You are building habits, not conducting an independence boot camp.
 
 ## How Little Steps Can Support Independence
 
-This is one of the reasons I created **Little Steps — Toddler Routine & Independence Toolkit**.
+This is one of the reasons why I created **Little Steps Toddler Routine & Independence Toolkit**.
 
 The goal is not to make toddlers manage themselves.
 
@@ -618,7 +618,5 @@ Not necessarily. Specific encouragement and recognition can be enough for many e
 ## References
 
 1. [Centers for Disease Control and Prevention, Positive Parenting Tips for Toddlers 2 to 3 Years](https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-2-3-years.html)
-
 2. [Centers for Disease Control and Prevention, Milestones by 18 Months](https://www.cdc.gov/act-early/milestones/18-months.html)
-
 3. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)
