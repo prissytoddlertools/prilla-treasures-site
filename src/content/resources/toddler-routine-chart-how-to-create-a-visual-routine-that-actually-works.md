@@ -5,8 +5,8 @@ description: Learn how to create a simple toddler routine chart using visual cue
 slug: toddler-routine-chart
 problem: routines-independence
 publishedAt: 2026-09-10
-draft: true
-featured: false
+draft: false
+featured: true
 image: /uploads/Codex Image Sep 11, 2026, 11_31_44 AM.png
 imageAlt: Mother helping toddler use a visual morning routine chart
 tags:
@@ -462,11 +462,11 @@ If your visual routine requires you to print a new chart every morning, redesign
 
 The system needs to be easy enough to become part of real life.
 
-That is one reason I created **Little Steps — Toddler Routine & Independence Toolkit**.
+That is one reason why I created **Little Steps  Toddler Routine & Independence Toolkit**.
 
 Instead of starting from a blank page and designing every routine yourself, the toolkit gives parents a flexible set of visual tools they can adapt to the routines their own toddler is learning.
 
-It includes **44 visual routine cards, seven visual boards, First → Then, Now → Next → Later and To Do → Done formats, choice and calm-down boards, encouragement cards, blank cards for your own routines, and a parent guide.**
+It includes **44 visual routine cards, seven visual boards, First → Then, Now → Next → Later, and To Do → Done formats, choice and calm-down boards, encouragement cards, blank cards for your own routines, and a parent guide.**
 
 You choose the cards your child needs instead of trying to use everything at once.
 
@@ -494,7 +494,7 @@ Make those steps visible.
 
 Practice the routine together.
 
-Then adjust it according to the child standing in front of you—not somebody else's child on the internet.
+Then adjust it according to the child standing in front of you, not somebody else's child on the internet.
 
 Sometimes making everyday life easier begins with something as simple as helping a toddler see what comes next.
 
@@ -523,5 +523,4 @@ Use it with your child rather than expecting the board to teach itself. Point to
 ## References
 
 1. [Centers for Disease Control and Prevention, Tips for Relying on Routines and Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/index.html)
-
 2. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)
