@@ -5,8 +5,8 @@ description: Toddler melts down when screen time ends? Learn simple ways to make
 slug: screen-time-toddler-meltdown
 problem: routines-independence
 publishedAt: 2026-09-12
-draft: true
-featured: false
+draft: false
+featured: true
 image: /uploads/Codex Image Sep 12, 2026, 05_06_04 PM.png
 imageAlt: Toddler using a tablet before transitioning to a screen-free activity
 tags:
