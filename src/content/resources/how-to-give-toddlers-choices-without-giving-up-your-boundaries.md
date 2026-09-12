@@ -613,7 +613,5 @@ Keep choices simple and concrete: two shirts, two books, two safe activities, tw
 ## References
 
 1. [Centers for Disease Control and Prevention, Steps for Giving Good Directions](https://www.cdc.gov/parenting-toddlers/directions/good-directions.html)
-
 2. [Centers for Disease Control and Prevention, Tips for Creating Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/rules.html)
-
 3. [ZERO TO THREE, Limits for Little Ones](https://www.zerotothree.org/resource/limits-for-little-ones/)
