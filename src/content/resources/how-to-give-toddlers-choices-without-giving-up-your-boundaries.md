@@ -5,8 +5,8 @@ description: Learn how to give toddlers simple choices that build independence w
 slug: toddler-choices-boundaries
 problem: routines-independence
 publishedAt: 2026-09-10
-draft: true
-featured: false
+draft: false
+featured: true
 image: /uploads/Codex Image Sep 11, 2026, 12_02_20 PM.png
 imageAlt: Mother giving toddler two clothing choices during morning routine
 tags:
