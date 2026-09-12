@@ -11,8 +11,13 @@ const problem = getProblem(resource.data.problem);
 ---
 
 <article class="simple-card">
+  {resource.data.image && (
+    <a class="card-image" href={`/resources/${resource.data.slug}/`} aria-label={`Read ${resource.data.title}`}>
+      <img src={resource.data.image} alt={resource.data.imageAlt ?? ''} loading="lazy" />
+    </a>
+  )}
   <p class="eyebrow">{problem?.name ?? 'Parent Resource'}</p>
   <h2>{resource.data.title}</h2>
   <p>{resource.data.description}</p>
-  <a href={`/resources/${resource.id}/`}>Read this resource <span aria-hidden="true">→</span></a>
+  <a href={`/resources/${resource.data.slug}/`}>Read this resource <span aria-hidden="true">→</span></a>
 </article>

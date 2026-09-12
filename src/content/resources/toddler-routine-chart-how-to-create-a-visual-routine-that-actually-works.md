@@ -2,13 +2,22 @@
 title: 'Toddler Routine Chart: How to Create a Visual Routine That Actually Works'
 seoTitle: 'Toddler Routine Chart: Create a Visual Routine That Works'
 description: Learn how to create a simple toddler routine chart using visual cues, First-Then steps and predictable routines to make everyday transitions easier.
+slug: toddler-routine-chart
 problem: routines-independence
 publishedAt: 2026-09-10
 draft: true
 featured: false
 image: /uploads/Codex Image Sep 11, 2026, 11_31_44 AM.png
+imageAlt: Mother helping toddler use a visual morning routine chart
 tags:
-  - Toddler Routines, Visual Routine, Toddler Independence, Parenting Toddlers, Toddler Daily Routine
+  - Toddler Routines
+  - Visual Routine
+  - Toddler Independence
+  - Parenting Toddlers
+  - Toddler Daily Routine
+productCtaText: Explore routines and independence tools
+productCtaUrl: /problems/routines-independence/
+noindex: false
 ---
 Mornings with a toddler can sometimes feel like you've already completed a full day's work before 9 a.m.
 
@@ -461,8 +470,6 @@ It includes **44 visual routine cards, seven visual boards, First → Then, Now 
 
 You choose the cards your child needs instead of trying to use everything at once.
 
-**[ADD PRODUCT BUTTON HERE: Explore Little Steps — Toddler Routine & Independence Toolkit]**
-
 ## You Do Not Need a Perfect Routine
 
 Your toddler does not need a Pinterest-perfect childhood schedule.
@@ -513,6 +520,8 @@ You do not necessarily need a prize for every completed routine. Simple encourag
 
 Use it with your child rather than expecting the board to teach itself. Point to the picture, name the activity, complete it together and move the card when finished. It may take repetition before your child understands how the system works.
 
-## **About the Author**
+## References
 
-Priscilla Afrifa Boateng is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom and online experience with her own parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence, and navigate common early-childhood challenges.
+1. [Centers for Disease Control and Prevention, Tips for Relying on Routines and Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/index.html)
+
+2. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)

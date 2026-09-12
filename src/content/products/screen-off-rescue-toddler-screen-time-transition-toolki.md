@@ -2,6 +2,7 @@
 title: 'Screen-Off Rescue: Toddler Screen Time Transition Toolkit'
 seoTitle: Toddler Screen Time Transition Toolkit | Prissy Toddler Tools
 description: Help toddlers ages 2–5 transition away from screens with a printable PAUSE plan, visual cues, parent scripts and a 7-day tracker.
+slug: screen-off-rescue-toddler-screen-time-transition-toolkit
 shortDescription: A practical 19-page toolkit with visual cues, parent scripts and a simple plan for clearer screen-time endings with toddlers ages 2–5.
 problem: routines-independence
 publishedAt: 2026-08-31

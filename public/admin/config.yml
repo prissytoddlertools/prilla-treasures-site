@@ -21,6 +21,11 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: SEO Title, name: seoTitle, widget: string }
       - { label: Search Description, name: description, widget: text }
+      - label: URL Slug
+        name: slug
+        widget: string
+        hint: Lowercase words separated by hyphens, for example toddler-routine-chart
+        pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Use lowercase letters, numbers and hyphens only']
       - label: Problem Shelf
         name: problem
         widget: select
@@ -35,7 +40,11 @@ collections:
       - { label: Keep as Draft, name: draft, widget: boolean, default: true }
       - { label: Feature on Home Page, name: featured, widget: boolean, default: false }
       - { label: Main Image, name: image, widget: image, required: false }
+      - { label: Main Image Alt Text, name: imageAlt, widget: string, required: false, hint: Describe what the image shows. Do not add keywords that are not useful to a reader. }
       - { label: Tags, name: tags, widget: list, default: [] }
+      - { label: Product Button Text, name: productCtaText, widget: string, required: false }
+      - { label: Product or Internal Link, name: productCtaUrl, widget: string, required: false, hint: Use a public website path or a verified checkout link. Never paste an admin link. }
+      - { label: Hide from Search Engines, name: noindex, widget: boolean, default: false }
       - { label: Article, name: body, widget: markdown }
 
   - name: products
@@ -48,6 +57,7 @@ collections:
       - { label: Product Title, name: title, widget: string }
       - { label: SEO Title, name: seoTitle, widget: string }
       - { label: Search Description, name: description, widget: text }
+      - { label: URL Slug, name: slug, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Use lowercase letters, numbers and hyphens only.'], hint: 'The clean shop address after /shop/. Do not change after publishing unless a redirect is added.' }
       - { label: Shop Card Description, name: shortDescription, widget: text }
       - label: Problem Shelf
         name: problem

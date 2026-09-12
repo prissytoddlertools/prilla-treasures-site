@@ -2,13 +2,22 @@
 title: How to Give Toddlers Choices Without Giving Up Your Boundaries
 seoTitle: Giving Toddlers Choices Without Losing Boundaries
 description: Learn how to give toddlers simple choices that build independence while keeping clear parenting boundaries, routines and expectations.
+slug: toddler-choices-boundaries
 problem: routines-independence
 publishedAt: 2026-09-10
 draft: true
 featured: false
 image: /uploads/Codex Image Sep 11, 2026, 12_02_20 PM.png
+imageAlt: Mother giving toddler two clothing choices during morning routine
 tags:
-  - Toddler Independence, Toddler Choices, Toddler Routines, Parenting Toddlers, Visual Routines
+  - Toddler Independence
+  - Toddler Choices
+  - Toddler Routines
+  - Parenting Toddlers
+  - Visual Routines
+productCtaText: Explore routines and independence tools
+productCtaUrl: /problems/routines-independence/
+noindex: false
 ---
 “Do you want to put your shoes on?”
 
@@ -539,8 +548,6 @@ Choose one or two decisions your toddler can reasonably control.
 
 Then practise using the system consistently.
 
-**[PRODUCT LINK: Explore the Little Steps Toolkit]**
-
 ## The Goal Is Not an Obedient Robot—or a Tiny Boss
 
 Your toddler is becoming their own person.
@@ -603,14 +610,10 @@ Reasonable, limited choices are different from allowing a child to control every
 
 Keep choices simple and concrete: two shirts, two books, two safe activities, two cups or two ways to complete a routine step. Both choices should be options you are genuinely willing to accept.
 
-## About the Author
-
-**Priscilla Afrifa Boateng** is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom and online experience with her parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence and navigate common early-childhood challenges.
-
 ## References
 
-**1.** Centers for Disease Control and Prevention (CDC), _Positive Parenting Tips: Toddlers (2–3 Years Old)._
+1. [Centers for Disease Control and Prevention, Steps for Giving Good Directions](https://www.cdc.gov/parenting-toddlers/directions/good-directions.html)
 
-**2.** Centers for Disease Control and Prevention (CDC), _Steps for Giving Good Directions._
+2. [Centers for Disease Control and Prevention, Tips for Creating Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/rules.html)
 
-**3.** Centers for Disease Control and Prevention (CDC), _Tips for Relying on Routines and Rules._
+3. [ZERO TO THREE, Limits for Little Ones](https://www.zerotothree.org/resource/limits-for-little-ones/)

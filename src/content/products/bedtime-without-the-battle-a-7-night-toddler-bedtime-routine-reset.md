@@ -2,6 +2,7 @@
 title: 'Bedtime Without the Battle: A 7-Night Toddler Bedtime Routine Reset'
 seoTitle: Toddler Bedtime Routine Reset | Prilla Treasures
 description: Build a calmer, more predictable toddler bedtime routine with a 36-page parent ebook, exact scripts, visual routine cards and a practical seven-night reset.
+slug: bedtime-without-the-battle-a-7-night-toddler-bedtime-routine-reset
 shortDescription: A practical 36-page bedtime system with parent scripts, visual cards and a seven-night reset for calmer, more predictable evenings.
 problem: routines-independence
 publishedAt: 2026-09-09
@@ -10,11 +11,12 @@ featured: true
 priceLabel: $27
 checkoutUrl: https://prissytoddlertools.lemonsqueezy.com/checkout/buy/c16d68d2-a8be-45fd-9a32-a2561a5394bb
 previewImages:
-  - /uploads/Codex Image Sep 9, 2026, 11_29_56 AM.png
-  - /uploads/Codex Image Sep 9, 2026, 11_30_19 AM.png
-  - /uploads/Codex Image Sep 9, 2026, 11_30_37 AM.png
-  - /uploads/Codex Image Sep 9, 2026, 11_29_56 AM.png
-  - /uploads/Codex Image Sep 9, 2026, 11_33_34 AM.png
+  - https://cdn.lemonsqueezy.com/media/462149/89c10138-927d-4e28-a1ff-d602539a2adb.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/6de92438-ec69-47bb-a9e8-9f8a0bc2abdb.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/97195222-f5ea-4e11-b6e4-0c97233a53ee.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/32a5264c-c57a-435f-9506-9fb0c18feaa0.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/50437a75-e442-4a2b-aa5a-05d0a55b88c0.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/807ddd6a-cd1f-4354-8c91-495e4558ba04.png?ixlib=php-3.3.1
 included:
   - A detailed 36-page parent ebook and printable system
   - The practical seven-night bedtime reset

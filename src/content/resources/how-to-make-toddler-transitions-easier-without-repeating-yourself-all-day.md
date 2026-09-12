@@ -2,13 +2,22 @@
 title: How to Make Toddler Transitions Easier Without Repeating Yourself All Day
 seoTitle: 'Toddler Transitions: How to Make Daily Changes Easier'
 description: Struggling with toddler transitions? Learn practical ways to make leaving, cleanup, bath time and bedtime easier using warnings, choices and visual routines.
+slug: toddler-transitions
 problem: routines-independence
 publishedAt: 2026-09-10
 draft: true
 featured: false
 image: /uploads/Codex Image Sep 11, 2026, 11_53_21 AM.png
+imageAlt: Mother using a First Then board to help toddler with transitions
 tags:
-  - Toddler Transitions, Toddler Routines, Visual Schedules, Toddler Independence, Parenting Toddlers
+  - Toddler Transitions
+  - Toddler Routines
+  - Visual Schedules
+  - Toddler Independence
+  - Parenting Toddlers
+productCtaText: Explore routines and independence tools
+productCtaUrl: /problems/routines-independence/
+noindex: false
 ---
 You have asked your toddler to put the toys away.
 
@@ -462,8 +471,6 @@ You do not need to use every card.
 
 Choose the part of the day where your toddler needs the most support and build from there.
 
-**[PRODUCT LINK: Explore the Little Steps Toolkit]**
-
 ## You Should Not Have to Repeat Yourself All Day
 
 Toddlers will still need reminders.
@@ -530,20 +537,10 @@ Small, genuine choices can give toddlers appropriate control. For example, your 
 
 Not necessarily. Children need to learn what the pictures mean and how the system works. At first, you may need to point to each picture, name the activity and move through the sequence together.
 
-## About the Author
-
-**Priscilla Afrifa Boateng** is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom and online experience with her own parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence and navigate common early-childhood challenges.
-
 ## References
 
-**1.** [Centers for Disease Control and Prevention (CDC), _Tips for Relying on Routines and Rules._](Centers for Disease Control and Prevention (CDC), Tips for Relying on Routines and Rules.)
+1. [Centers for Disease Control and Prevention, Tips for Relying on Routines and Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/index.html)
 
-**2.** [ZERO TO THREE, _12–24 Months: Social-Emotional Development._](ZERO TO THREE, 12–24 Months: Social-Emotional Development.)
+2. [ZERO TO THREE, 12 to 24 Months Social and Emotional Development](https://www.zerotothree.org/resource/12-24-months-social-emotional-development/)
 
-**3.** [ZERO TO THREE, _Limits for Little Ones: Setting Boundaries with Toddlers._](ZERO TO THREE, Limits for Little Ones: Setting Boundaries with Toddlers.)
-
-**4.**[ Centers for Disease Control and Prevention (CDC), _Practice Parenting Skills: Structure and Rules._](Centers for Disease Control and Prevention (CDC), Practice Parenting Skills: Structure and Rules.)
-
-**5.** [ZERO TO THREE, _Limits for Little Ones: Setting Boundaries with Toddlers._](ZERO TO THREE, Limits for Little Ones: Setting Boundaries with Toddlers.)
-
-**6.** [ZERO TO THREE, _Creating Routines for Love and Learning._](ZERO TO THREE, Creating Routines for Love and Learning.)
+3. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)

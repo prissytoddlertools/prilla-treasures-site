@@ -22,8 +22,8 @@ export const GET: APIRoute = async () => {
   const paths = [
     ...fixedRoutes,
     ...problems.map((problem) => `/problems/${problem.slug}/`),
-    ...products.map((product) => `/shop/${product.id}/`),
-    ...resources.map((resource) => `/resources/${resource.id}/`),
+    ...products.map((product) => `/shop/${product.data.slug}/`),
+    ...resources.filter((resource) => !resource.data.noindex).map((resource) => `/resources/${resource.data.slug}/`),
   ];
 
   const urls = paths

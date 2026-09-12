@@ -2,15 +2,24 @@
 title: Why Does My Toddler Struggle With What Comes Next? How Visual Cues Can Help
 seoTitle: 'Visual Cues for Toddlers: Help Them Know What Comes Next'
 description: Learn how visual cues, First-Then boards and simple toddler routines can help children understand what comes next and navigate daily activities.
+slug: visual-cues-for-toddlers
 problem: routines-independence
 publishedAt: 2026-09-10
 draft: true
 featured: false
 image: /uploads/Codex Image Sep 11, 2026, 12_09_08 PM.png
+imageAlt: Toddler using visual routine cards to see what comes next
 tags:
-  - Visual Cues, Toddler Routines, Visual Schedule, Toddler Independence, Parenting Toddlers
+  - Visual Cues
+  - Toddler Routines
+  - Visual Schedule
+  - Toddler Independence
+  - Parenting Toddlers
+productCtaText: Explore routines and independence tools
+productCtaUrl: /problems/routines-independence/
+noindex: false
 ---
-##### “Put your shoes on.”
+> “Put your shoes on.”
 
 Your toddler keeps playing.
 
@@ -587,8 +596,6 @@ The idea is not to create a perfect schedule.
 
 It is to give your toddler clearer information about everyday life.
 
-**[PRODUCT LINK: Explore the Little Steps Toolkit]**
-
 ## Start With One Routine Today
 
 You do not need to redesign your child's entire day.
@@ -651,18 +658,10 @@ Focus on repeated parts of the day rather than trying to schedule everything. Yo
 
 No tool can guarantee that a toddler will never become upset. Visual cues are intended to make routines and transitions clearer and more predictable. A child may understand exactly what is happening next and still be disappointed.
 
-## About the Author
-
-**Priscilla Afrifa Boateng** is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom and online experience with her parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence and navigate common early-childhood challenges.
-
 ## References
 
-**1.**[ Centers for Disease Control and Prevention (CDC), _Essentials for Parenting Toddlers: Resources and Daily Schedules._](Centers for Disease Control and Prevention (CDC), Essentials for Parenting Toddlers: Resources and Daily Schedules.)
+1. [Centers for Disease Control and Prevention, Tips for Relying on Routines and Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/index.html)
 
-**2.**[ ZERO TO THREE, _12–24 Months: Social-Emotional Development._](ZERO TO THREE, 12–24 Months: Social-Emotional Development.)
+2. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)
 
-**3.** [Centers for Disease Control and Prevention (CDC), _Tips for Creating Rules._](Centers for Disease Control and Prevention (CDC), Tips for Creating Rules.)
-
-**4.** [ZERO TO THREE, _Creating Routines for Love and Learning._](ZERO TO THREE, Creating Routines for Love and Learning.)
-
-**5.** [ZERO TO THREE, _Promoting Cooperation and Self-Control: Gather Round Activities._](ZERO TO THREE, Promoting Cooperation and Self-Control: Gather Round Activities.)
+3. [ZERO TO THREE, Promoting Cooperation and Self Control](https://www.zerotothree.org/resource/promoting-cooperation-and-self-control-gather-round-activities/)

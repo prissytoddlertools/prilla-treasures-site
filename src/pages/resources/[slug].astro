@@ -7,7 +7,7 @@ import { getPublishedResources } from '../../lib/content';
 export async function getStaticPaths() {
   const resources = await getPublishedResources();
   return resources.map((resource) => ({
-    params: { slug: resource.id },
+    params: { slug: resource.data.slug },
     props: { resource },
   }));
 }
@@ -15,25 +15,58 @@ export async function getStaticPaths() {
 const { resource } = Astro.props;
 const { Content } = await render(resource);
 const problem = getProblem(resource.data.problem);
+const relatedResources = (await getPublishedResources())
+  .filter((item) => item.id !== resource.id && item.data.problem === resource.data.problem)
+  .slice(0, 3);
 ---
 
 <BaseLayout
   title={resource.data.seoTitle}
   description={resource.data.description}
+  canonicalPath={`/resources/${resource.data.slug}/`}
   socialImage={resource.data.image ?? null}
+  noindex={resource.data.noindex}
+  ogType="article"
 >
   <header class="page-hero">
     <p class="eyebrow">{problem?.name ?? 'Parent Resource'}</p>
     <h1>{resource.data.title}</h1>
     <p>{resource.data.description}</p>
+    <p class="article-byline">By Priscilla Afrifa Boateng</p>
   </header>
 
   <article class="content-shell article-body">
+    {resource.data.image && (
+      <figure class="article-featured-image">
+        <img src={resource.data.image} alt={resource.data.imageAlt ?? ''} loading="eager" />
+      </figure>
+    )}
     <Content />
-    <div class="notice-box">
-      <h2>Looking for a tool?</h2>
-      <p>Visit the matching problem shelf to see finished tools and related reading.</p>
-      {problem && <a class="button button-small" href={`/problems/${problem.slug}/`}>Visit {problem.name}</a>}
-    </div>
+
+    {resource.data.productCtaUrl && (
+      <aside class="notice-box article-product-cta">
+        <h2>Ready to make the routine easier to see?</h2>
+        <p>Use a complete set of visual routine cards, boards and parent guidance instead of creating every piece from scratch.</p>
+        <a class="button button-small" href={resource.data.productCtaUrl}>{resource.data.productCtaText ?? 'Explore the matching toolkit'}</a>
+      </aside>
+    )}
+
+    <aside class="author-box" aria-labelledby="author-heading">
+      <h2 id="author-heading">About the Author</h2>
+      <p>Priscilla Afrifa Boateng is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom experience with her parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence and navigate common early-childhood challenges.</p>
+    </aside>
+
+    {relatedResources.length > 0 && (
+      <aside class="related-reading" aria-labelledby="related-reading-heading">
+        <h2 id="related-reading-heading">Related parent resources</h2>
+        <ul>
+          {relatedResources.map((item) => (
+            <li><a href={`/resources/${item.data.slug}/`}>{item.data.title}</a></li>
+          ))}
+        </ul>
+      </aside>
+    )}
+
+    {problem && <p><a class="plain-link" href={`/problems/${problem.slug}/`}>Browse more {problem.name} tools and resources</a></p>}
   </article>
 </BaseLayout>

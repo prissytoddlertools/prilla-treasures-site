@@ -2,13 +2,22 @@
 title: How to Help Your Toddler Become More Independent Through Everyday Routines
 seoTitle: How to Encourage Toddler Independence Through Daily Routines
 description: Learn practical ways to encourage toddler independence through dressing, choices, cleanup and simple daily routines without expecting too much too soon.
+slug: toddler-independence-daily-routines
 problem: routines-independence
 publishedAt: 2026-09-10
 draft: true
 featured: false
 image: /uploads/Codex Image Sep 11, 2026, 12_17_11 PM.png
+imageAlt: Toddler practising putting on shoes independently during daily routine
 tags:
-  - Toddler Independence, Toddler Routines, Independent Toddlers, Visual Routines, Parenting Toddlers
+  - Toddler Independence
+  - Toddler Routines
+  - Independent Toddlers
+  - Visual Routines
+  - Parenting Toddlers
+productCtaText: Explore routines and independence tools
+productCtaUrl: /problems/routines-independence/
+noindex: false
 ---
 “I do it!”
 
@@ -538,8 +547,6 @@ Choose the cards your toddler needs.
 
 Then let the visual system support the skills you are already practising together.
 
-**[PRODUCT LINK: Explore the Little Steps Toolkit]**
-
 ## Independence Is Built in Small Moments
 
 Helping your toddler become independent does not require making them grow up quickly.
@@ -608,20 +615,10 @@ Visual routines can give children another source of information about what they 
 
 Not necessarily. Specific encouragement and recognition can be enough for many everyday tasks. You can tell your child exactly what they did successfully: “You put your shoes by the door” or “You carried your plate carefully.”
 
-## About the Author
-
-**Priscilla Afrifa Boateng** is an educator and mother with over seven years of experience working with children. Over the years, she has taught about 300 children across different age groups. She combines her classroom and online experience with her parenting journey to create practical resources that help parents understand their toddlers, build everyday routines, encourage independence and navigate common early-childhood challenges.
-
 ## References
 
-**1.** [Centers for Disease Control and Prevention (CDC), _Positive Parenting Tips: Toddlers (1–2 Years Old)._](Centers for Disease Control and Prevention (CDC), Positive Parenting Tips: Toddlers (1–2 Years Old).)
+1. [Centers for Disease Control and Prevention, Positive Parenting Tips for Toddlers 2 to 3 Years](https://www.cdc.gov/child-development/positive-parenting-tips/toddlers-2-3-years.html)
 
-**2.** [Centers for Disease Control and Prevention (CDC), _Essentials for Parenting Toddlers: Resources and Daily Schedules._](Centers for Disease Control and Prevention (CDC), Essentials for Parenting Toddlers: Resources and Daily Schedules.)
+2. [Centers for Disease Control and Prevention, Milestones by 18 Months](https://www.cdc.gov/act-early/milestones/18-months.html)
 
-**3.** [Centers for Disease Control and Prevention (CDC), _Milestones by 18 Months](Centers for Disease Control and Prevention (CDC), Milestones by 18 Months)._
-
-**4.**[ Centers for Disease Control and Prevention (CDC), _Tips for Creating Rules._](Centers for Disease Control and Prevention (CDC), Tips for Creating Rules.)
-
-**5.** [Centers for Disease Control and Prevention (CDC), _Positive Parenting Tips: Toddlers (2–3 Years Old)._](Centers for Disease Control and Prevention (CDC), Positive Parenting Tips: Toddlers (2–3 Years Old).)
-
-**6.** [Centers for Disease Control and Prevention (CDC), _Positive Parenting Tips: Preschoolers (3–5 Years Old)._](Centers for Disease Control and Prevention (CDC), Positive Parenting Tips: Preschoolers (3–5 Years Old).)
+3. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)

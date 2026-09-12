@@ -2,6 +2,7 @@
 title: Is My Toddler Ready for Potty Learning? The Five Minute Parent Check
 seoTitle: Free Toddler Potty Readiness Checklist | Prilla Treasures
 description: Download a free five minute toddler potty readiness checklist with calm parent scripts, preparation tips and one clear next step.
+slug: is-my-toddler-ready-for-potty-learning-the-five-minute-parent-check
 shortDescription: Not sure whether to begin potty learning? Use this free five minute parent check to notice readiness patterns, prepare the routine and choose a calm next step.
 problem: potty-learning
 publishedAt: 2026-09-10
@@ -17,31 +18,19 @@ previewImages:
   - /uploads/exec-42ff8ad9-ddd4-4a55-a9b7-e5b15cd0e62f.png
 included:
   - A five page parent mini kit
-  - ''
   - A toddler readiness observation checklist
-  - ''
   - A bathroom and clothing preparation checklist
-  - ''
   - Calm parent scripts for first potty tries
-  - ''
   - Guidance for choosing one realistic next step
-  - ''
   - A4 and US Letter PDF editions
 steps:
   - Read through the readiness signs.
-  - ''
   - Tick only the patterns you have noticed more than once.
-  - ''
   - Prepare the bathroom, clothing and routine.
-  - ''
   - Choose two realistic moments for potty practice.
-  - ''
   - Use the calm scripts and decide whether to begin, continue observing or pause.
-  - ''
-  - ''
 limitations:
   - This mini kit is an educational parenting resource. It does not diagnose developmental, behavioural or medical conditions, and it cannot determine readiness with certainty.
-  - ''
   - Every child develops differently. Speak with a pediatrician or another qualified professional if you have concerns about pain, constipation, toileting difficulties or your child’s development.
 faqs:
   - question: Is this a physical product?
@@ -51,8 +40,6 @@ faqs:
   - question: Does completing the checklist mean my child is definitely ready?
     answer: No. The checklist helps you notice patterns and choose a sensible next step. It is not a pass or fail test.
   - question: Do I need a printer?
-    answer: No. You can read the guide on your phone or tablet. Printing is optional.
-  - question: Can I share the PDF?
     answer: No. You can read the guide on your phone or tablet. Printing is optional.
   - question: Can I share the PDF?
     answer: The PDF is for personal household use. Please share the free product page with other parents instead of redistributing the files.

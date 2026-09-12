@@ -9,6 +9,8 @@ interface Props {
   description: string;
   canonicalPath?: string;
   socialImage?: string | null;
+  noindex?: boolean;
+  ogType?: 'website' | 'article';
 }
 
 const {
@@ -16,6 +18,8 @@ const {
   description,
   canonicalPath = Astro.url.pathname,
   socialImage = '/og.png',
+  noindex = false,
+  ogType = 'website',
 } = Astro.props;
 
 const siteUrl = 'https://prillatreasures.com';
@@ -32,8 +36,9 @@ const analyticsToken = import.meta.env.PUBLIC_CF_WEB_ANALYTICS_TOKEN;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={canonicalUrl} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content="Prissy Toddler Tools by Prilla Treasures" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

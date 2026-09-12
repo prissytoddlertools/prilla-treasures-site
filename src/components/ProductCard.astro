@@ -9,9 +9,14 @@ const { product } = Astro.props;
 ---
 
 <article class="simple-card">
+  {product.data.previewImages[0] && (
+    <a class="card-image" href={`/shop/${product.data.slug}/`} aria-label={`View ${product.data.title}`}>
+      <img src={product.data.previewImages[0]} alt={`${product.data.title} cover preview`} loading="lazy" />
+    </a>
+  )}
   <p class="eyebrow">Digital toddler tool</p>
   <h2>{product.data.title}</h2>
   <p>{product.data.shortDescription}</p>
   {product.data.priceLabel && <p><strong>{product.data.priceLabel}</strong></p>}
-  <a href={`/shop/${product.id}/`}>See what is inside <span aria-hidden="true">→</span></a>
+  <a href={`/shop/${product.data.slug}/`}>See what is inside <span aria-hidden="true">→</span></a>
 </article>

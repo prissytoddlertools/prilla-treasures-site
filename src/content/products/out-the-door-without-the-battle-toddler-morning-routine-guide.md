@@ -2,6 +2,7 @@
 title: 'Out the Door Without the Battle: Toddler Morning Routine Guide'
 seoTitle: Toddler Morning Routine Guide | Out the Door Calmly
 description: Make toddler mornings and leaving the house calmer with the DOORWAY pathway, parent scripts, visual routines, rescue plans and nine printable tools.
+slug: out-the-door-without-the-battle-toddler-morning-routine-guide
 shortDescription: A 34-page parent e-book and printable system for calmer toddler mornings, smoother dressing and easier leaving-the-house transitions.
 problem: routines-independence
 publishedAt: 2026-09-08

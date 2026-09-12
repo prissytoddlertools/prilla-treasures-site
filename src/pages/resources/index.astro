@@ -21,8 +21,16 @@ const resources = await getPublishedResources();
     <nav class="category-nav" aria-label="Resource categories">
       {problems.map((problem) => <a href={`/problems/${problem.slug}/`}>{problem.name}</a>)}
     </nav>
-    <div class="card-grid">
-      {resources.map((resource) => <ResourceCard resource={resource} />)}
-    </div>
+    {resources.length > 0 ? (
+      <div class="card-grid">
+        {resources.map((resource) => <ResourceCard resource={resource} />)}
+      </div>
+    ) : (
+      <div class="notice-box">
+        <h2>New parent resources are being prepared</h2>
+        <p>The first articles are still in editorial review. In the meantime, browse the finished tools by the everyday problem you want to solve.</p>
+        <a class="plain-link" href="/problems/">Browse by problem</a>
+      </div>
+    )}
   </section>
 </BaseLayout>

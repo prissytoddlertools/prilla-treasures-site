@@ -7,7 +7,7 @@ import { getPublishedProducts } from '../../lib/content';
 export async function getStaticPaths() {
   const products = await getPublishedProducts();
   return products.map((product) => ({
-    params: { slug: product.id },
+    params: { slug: product.data.slug },
     props: { product },
   }));
 }
@@ -32,7 +32,7 @@ const problem = getProblem(product.data.problem);
       href={product.data.checkoutUrl}
       rel="noopener"
       data-event="purchase_click"
-      data-product={product.id}
+      data-product={product.data.slug}
     >Buy this digital tool</a>
   </header>
 
@@ -82,7 +82,7 @@ const problem = getProblem(product.data.problem);
         href={product.data.checkoutUrl}
         rel="noopener"
         data-event="purchase_click"
-        data-product={product.id}
+        data-product={product.data.slug}
       >Buy for {product.data.priceLabel}</a>
     </div>
 

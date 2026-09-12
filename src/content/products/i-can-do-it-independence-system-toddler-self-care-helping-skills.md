@@ -2,6 +2,7 @@
 title: 'I Can Do It Independence System: Toddler Self-Care & Helping Skills'
 seoTitle: Toddler Independence & Self-Care Toolkit | Prilla Treasures
 description: Teach toddler self-care and helping skills with a 40-page parent ebook, 12 printable tools, a seven-level help ladder and a seven-day practice plan.
+slug: i-can-do-it-independence-system-toddler-self-care-helping-skills
 shortDescription: A practical 40-page system for teaching toddler self-care and helping skills through small, safe and achievable steps.
 problem: routines-independence
 publishedAt: 2026-09-09
@@ -10,52 +11,43 @@ featured: true
 priceLabel: $27
 checkoutUrl: https://prissytoddlertools.lemonsqueezy.com/checkout/buy/5184172d-5be5-4412-9730-4f341b77a1c3
 previewImages:
-  - /uploads/Codex Image Sep 9, 2026, 12_02_31 PM.png
-  - /uploads/Codex Image Sep 9, 2026, 12_03_28 PM.png
-  - /uploads/Codex Image Sep 9, 2026, 12_10_51 PM.png
-  - /uploads/Codex Image Sep 9, 2026, 12_12_13 PM.png
+  - https://cdn.lemonsqueezy.com/media/462149/0907c62e-221e-466f-b9d0-b131b7758afd.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/4d9eed59-4b31-4e38-af4b-3b76aaae0b53.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/99bbc3ba-47fc-495e-9a3a-098443145d67.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/581ecae7-089e-4a9d-80ae-7918bd93524e.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/9743a549-2324-429b-903e-ffa37c667d62.png?ixlib=php-3.3.1
+  - https://cdn.lemonsqueezy.com/media/462149/f64ea43b-e894-4e82-82c0-3978a7455cec.png?ixlib=php-3.3.1
 included:
   - A detailed 40-page parent ebook and printable system
-  - • The step-by-step I CAN teaching pathway
-  - • A seven-level help ladder
-  - • Guidance for giving clear toddler-friendly directions
-  - • Practice Mode and Rescue Mode strategies
-  - • Dressing and self-care participation guidance
-  - • Supervised handwashing guidance
-  - • Toothbrushing and personal-care participation guidance
-  - • Toy tidy, laundry and table-helper activities
-  - • Plant-care and small water-spill activities
-  - • A simple preschool-bag routine
-  - • Green, amber and red safety-sorting guidance
-  - • Support for responding when a child refuses
-  - • A seven-day independence builder
-  - • A personalised family independence plan
-  - • 12 practical printable tools
-  - • A4 and US Letter PDF editions
-  - • Personal household-use licence
-  - ''
-  - ''
+  - The step by step I CAN teaching pathway
+  - A seven level help ladder
+  - Guidance for giving clear toddler friendly directions
+  - Practice Mode and Rescue Mode strategies
+  - Dressing and self care participation guidance
+  - Supervised handwashing guidance
+  - Toothbrushing and personal care participation guidance
+  - Toy tidy, laundry and table helper activities
+  - Plant care and small water spill activities
+  - A simple preschool bag routine
+  - Green, amber and red safety sorting guidance
+  - Support for responding when a child refuses
+  - A seven day independence builder
+  - A personalised family independence plan
+  - 12 practical printable tools
+  - A4 and US Letter PDF editions
+  - Personal household use licence
 steps:
   - Choose one safe skill that happens regularly and matters to your family.
-  - ''
   - Decide which small part of the task your child can safely own.
-  - ''
   - Change the environment before repeatedly correcting your child.
-  - ''
   - Break the activity into visible, manageable steps.
-  - ''
   - Begin at the level of help your child currently needs.
-  - ''
   - Practise for approximately five minutes when nobody is rushed.
-  - ''
   - Record the support that worked for seven days and fade only one prompt at a time.
 limitations:
   - The I Can Do It Independence System is an educational routine and skill-support resource for caregivers of toddlers and young preschoolers.
-  - ''
   - It is not a developmental assessment, medical treatment, behavioural therapy or occupational therapy. It cannot guarantee that a child will complete a task independently or reach a particular milestone.
-  - ''
   - Adults remain responsible for supervision and safety. Medicine, chemicals, blades, hot items, glass, deep water, machines and other dangerous objects must remain adult-controlled.
-  - ''
   - Seek advice from an appropriate qualified professional if you are concerned about your child’s movement, communication, sensory responses, development or ability to participate in everyday care.
 faqs:
   - question: What age is this product designed for?

@@ -2,6 +2,7 @@
 title: 'Little Bites Mealtime System: A Picky Eating Guide for Parents'
 seoTitle: Toddler Picky Eating Guide & Printables | Little Bites
 description: 'Make a calmer plan for toddler picky eating with Little Bites: a 25-page parent e-book with practical scripts, six printable tools and a seven-day routine reset.'
+slug: little-bites-mealtime-system-a-picky-eating-guide-for-parents
 shortDescription: When familiar foods feel like the only foods, knowing what to try next can be exhausting. Little Bites gives you a low-pressure plan, everyday parent scripts and six printable tools to help you notice patterns and organise calmer mealtimes.
 problem: picky-eating
 publishedAt: 2026-09-03

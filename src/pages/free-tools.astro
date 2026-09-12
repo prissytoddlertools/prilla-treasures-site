@@ -1,5 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { getPublishedProducts } from '../lib/content';
+
+const freeProducts = (await getPublishedProducts()).filter((product) => product.data.priceLabel?.trim().toUpperCase() === 'FREE');
 ---
 
 <BaseLayout
@@ -13,10 +17,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   </header>
 
   <section class="content-shell">
-    <div class="notice-box">
-      <h2>No free download is published yet</h2>
-      <p>A free tool will appear only after the file, signup and delivery have been checked.</p>
-      <p>For now, read the <a class="plain-link" href="/resources/">parent resources</a> or write to <a class="plain-link" href="mailto:founder@prillatreasures.com">founder@prillatreasures.com</a>.</p>
-    </div>
+    {freeProducts.length > 0 ? (
+      <div class="card-grid">
+        {freeProducts.map((product) => <ProductCard product={product} />)}
+      </div>
+    ) : (
+      <div class="notice-box">
+        <h2>No free download is published yet</h2>
+        <p>A free tool will appear only after the file, signup and delivery have been checked.</p>
+        <p>For now, read the <a class="plain-link" href="/resources/">parent resources</a> or write to <a class="plain-link" href="mailto:founder@prillatreasures.com">founder@prillatreasures.com</a>.</p>
+      </div>
+    )}
   </section>
 </BaseLayout>
