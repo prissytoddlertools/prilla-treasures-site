@@ -5,8 +5,8 @@ description: Struggling with toddler transitions? Learn practical ways to make l
 slug: toddler-transitions
 problem: routines-independence
 publishedAt: 2026-09-10
-draft: true
-featured: false
+draft: false
+featured: true
 image: /uploads/Codex Image Sep 11, 2026, 11_53_21 AM.png
 imageAlt: Mother using a First Then board to help toddler with transitions
 tags:
@@ -232,15 +232,15 @@ Next we get dressed.
 
 Later we go.
 
-Your toddler does not need to understand clock time to see that the exciting activity is coming.
+Your toddler doesn't need to understand clock time to know the exciting activity is coming.
 
-## Give Choices — But Only Real Choices
+## Give Choices But Only Real Choices
 
-Another useful transition strategy is offering a small amount of control.
+Another useful transition strategy is offering a little control.
 
 Toddlers are developing independence.
 
-Sometimes the fight is not really about putting on pajamas.
+Sometimes the fight is not really about putting on pyjamas.
 
 It is about having no say in what is happening.
 
@@ -540,7 +540,5 @@ Not necessarily. Children need to learn what the pictures mean and how the syste
 ## References
 
 1. [Centers for Disease Control and Prevention, Tips for Relying on Routines and Rules](https://www.cdc.gov/parenting-toddlers/structure-rules/index.html)
-
 2. [ZERO TO THREE, 12 to 24 Months Social and Emotional Development](https://www.zerotothree.org/resource/12-24-months-social-emotional-development/)
-
 3. [ZERO TO THREE, Creating Routines for Love and Learning](https://www.zerotothree.org/resource/creating-routines-for-love-and-learning/)
