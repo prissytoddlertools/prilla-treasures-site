@@ -110,7 +110,7 @@ But your toddler gets some control over how the routine happens.
 
 The CDC recommends giving young children limited choices when possible and notes that choices can support independence and decision-making.²
 
-For young children, keeping the options limited—often to two choices—can make the decision easier to manage.²
+For young children, keeping the options limited, often to two choices, can make the decision easier to manage.²
 
 ## Boundary First, Choice Second
 
@@ -548,7 +548,7 @@ Choose one or two decisions your toddler can reasonably control.
 
 Then practise using the system consistently.
 
-## The Goal Is Not an Obedient Robot—or a Tiny Boss
+## The Goal Is Not an Obedient Robot or a Tiny Boss
 
 Your toddler is becoming their own person.
 
